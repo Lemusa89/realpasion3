@@ -644,10 +644,9 @@ strong {
   background-color: #fd460a;
   position: relative;
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 
-.featured-section::after {
+/* .featured-section::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -658,7 +657,7 @@ strong {
   border-width: 0 0 450px 450px;
   border-color: transparent transparent var(--white-color) transparent;
   pointer-events: none;
-}
+} */
 
 
 /*---------------------------------------
@@ -1101,3 +1100,8 @@ strong {
   }
 }
 
+.contactos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
