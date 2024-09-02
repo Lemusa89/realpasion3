@@ -1086,7 +1086,7 @@ strong {
   }
 }
 
-.contactos{
+.contactos-casilla{
   display: flex;
   flex-direction: row;
   align-items: center;
